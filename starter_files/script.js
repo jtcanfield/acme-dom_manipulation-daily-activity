@@ -70,3 +70,9 @@ listItem4.appendChild( h2element4 );
 /***************************************************/
 /* 3. Navigation Dropdown **************************/
 /***************************************************/
+let navBar = document.querySelector("nav");
+let listenButton = document.getElementById("dropdown");
+listenButton.addEventListener("click", dropNavBar);
+function dropNavBar(){
+  navBar.classList.toggle('visible');
+}
